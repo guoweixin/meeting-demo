@@ -1,0 +1,12 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /meeting-pay
+dubbo:
+  application:
+    name: boot-pay-service
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20882
